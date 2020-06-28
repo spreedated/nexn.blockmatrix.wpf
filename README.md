@@ -31,6 +31,23 @@ Some simple and cool looking ProgressBar and WaitAnimation.
 - Different fillstyles
 - Custom matrix size
 
+### Usage (C#)
+(WaitAnimation)
+
+```
+BlockMatrix matrix = new BlockMatrix(ref <YourGrid x:Name>);
+matrix.CreateMatrix();
+matrix.Start();
+```
+
+(ProgressBar)
+
+```
+BlockMatrixProgress matrix = new BlockMatrixProgress(ref Matrix) { Fillstyle = BlockMatrixProgress.FillStyles.<SelectYourStyle> };
+matrix.CreateMatrix();
+matrix.Value = 0; // Set value
+```
+
 ### Enjoying this?
 Just star the repo or make a donation.
 
