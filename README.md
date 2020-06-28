@@ -4,25 +4,25 @@ BlockMatrix
 ============
 Some simple and cool looking ProgressBar and WaitAnimation.
 
-###Wait Animation
+### Wait Animation
 
-[![](Screenshots/BlockMatrix_wait.gif)]
+![](Screenshots/BlockMatrix_wait.gif)
 
-###Random
+### Random
 
-[![](Screenshots/BlockMatrixProgress_random.gif)]
+![](Screenshots/BlockMatrixProgress_random.gif)
 
-###Straight
+### Straight
 
-[![](Screenshots/BlockMatrixProgress_straight.gif)]
+![](Screenshots/BlockMatrixProgress_straight.gif)
 
-###Bars
+### Bars
 
-[![](Screenshots/BlockMatrixProgress_bars.gif)]
+![](Screenshots/BlockMatrixProgress_bars.gif)
 
-###Bars right to left
+### Bars right to left
 
-[![](Screenshots/BlockMatrixProgress_barslefttoright.gif)]
+![](Screenshots/BlockMatrixProgress_barslefttoright.gif)
 
 
 ### Features
