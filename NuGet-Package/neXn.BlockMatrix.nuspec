@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+		<metadata>
+				<id>neXn.BlockMatrix.WPF</id>
+				<version>1.0.0</version>
+				<authors>Markus Karl Wackermann</authors>
+				<requireLicenseAcceptance>false</requireLicenseAcceptance>
+				<description>BlockMatrix ProgressBar and Waitanimation for WPF.
+				</description>
+				<projectUrl>https://github.com/spreedated/nexn.blockmatrix.wpf</projectUrl>
+				<license type="expression">MIT</license>
+				<!-- <dependencies>
+						<dependency id="Newtonsoft.Json" version="12.0.3" />
+				</dependencies> -->
+		</metadata>
+		<files>
+				<file src="..\neXn.BlockMatrix\bin\Release\neXn.BlockMatrix.dll" target="lib\net472" />
+				<file src="..\neXn.BlockMatrix\bin\Release\neXn.BlockMatrix.xml" target="lib\net472" />
+		</files>
+</package>
