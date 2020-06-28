@@ -43,7 +43,7 @@ matrix.Start();
 (ProgressBar)
 
 ```
-BlockMatrixProgress matrix = new BlockMatrixProgress(ref Matrix) { Fillstyle = BlockMatrixProgress.FillStyles.<SelectYourStyle> };
+BlockMatrixProgress matrix = new BlockMatrixProgress(ref <YourGrid x:Name>) { Fillstyle = BlockMatrixProgress.FillStyles.<SelectYourStyle> };
 matrix.CreateMatrix();
 matrix.Value = 0; // Set value
 ```
