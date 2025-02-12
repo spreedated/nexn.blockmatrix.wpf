@@ -1,0 +1,39 @@
+﻿<Window x:Class="Sample.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d:DataContext="{d:DesignInstance local:MainWindow}"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sample.Wpf"
+        mc:Ignorable="d"
+        Title="Blockmatrix Sample WPF"
+        Height="450"
+        Width="800"
+        SizeToContent="Height"
+        WindowStartupLocation="CenterScreen">
+    
+    <StackPanel Orientation="Vertical">
+        <Grid>
+            <TextBlock Text="{Binding Percentage, Mode=OneWay, StringFormat={}Percentage: {0}%}" HorizontalAlignment="Center"/>
+        </Grid>
+
+        <GroupBox Header="Random Animation">
+            <Grid x:Name="TheGrid" Height="Auto"/>
+        </GroupBox>
+        
+        <GroupBox Header="Random Fill">
+            <Grid x:Name="TheGrid1" Height="Auto"/>
+        </GroupBox>
+        
+        <GroupBox Header="Straight Fill">
+            <Grid x:Name="TheGrid2" Height="Auto"/>
+        </GroupBox>
+        
+        <GroupBox Header="Bars Fill">
+            <Grid x:Name="TheGrid3" Height="Auto"/>
+        </GroupBox>
+        
+        <GroupBox Header="Bars Fill RTL">
+            <Grid x:Name="TheGrid4" Height="Auto"/>
+        </GroupBox>
+    </StackPanel>
+</Window>

@@ -1,7 +1,9 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=35WE5NU48AUMA&source=url)
+# BlockMatrix
 
-BlockMatrix
-============
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/spreed)
+
+## Overview
+
 Some simple and cool looking ProgressBar and WaitAnimation.
 
 ### Wait Animation
@@ -48,15 +50,16 @@ matrix.CreateMatrix();
 matrix.Value = 0; // Set value
 ```
 
-### Enjoying this?
-Just star the repo or make a donation.
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
 
-[![Donate0](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=35WE5NU48AUMA&source=url)
+## License
+This project is licensed under the [MIT License](LICENSE.txt).
 
-Your help is valuable since this is a hobby project for all of us: we do development during out-of-office hours.
-
-### Contribution
-Pull requests are very welcome.
+## Acknowledgments
+Thanks for checking out Year In Progress! Stay inspired and keep pushing forward!
 
 ### Copyright
-This version was written by **Markus Karl Wackermann**
+This version was written by **Dante Wackermann**
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/spreed)
